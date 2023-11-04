@@ -21,7 +21,7 @@ if (!isset($_SESSION['username'])) {
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
+<body>    
     <!-- HEADER -->
     <div id="header-admin">
         <!-- container -->
