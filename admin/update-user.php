@@ -52,7 +52,7 @@
                           <div class="form-group">
                           <label>First Name</label>
                           <input type="text" name="f_name" class="form-control" value="<?php echo $row['first_name'];?>" placeholder="" required>
-                      </div>
+                      </div>   
                       <div class="form-group">
                           <label>Last Name</label>
                           <input type="text" name="l_name" class="form-control" value="<?php echo $row['last_name'];?>" placeholder="" required>
