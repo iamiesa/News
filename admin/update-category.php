@@ -20,8 +20,8 @@ if($_SESSION['role'] ==0 ){
                           <input type="text" name="cat_name" class="form-control" value="Html"  placeholder="" required>
                       </div>
                       <input type="submit" name="sumbit" class="btn btn-primary" value="Update" required />
-                  </form>
-                </div>
+                  </form>   
+                </div>  
               </div>
             </div>
           </div>
