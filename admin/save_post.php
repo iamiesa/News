@@ -20,6 +20,7 @@
                 $error[] = " file size should not exceed 2mb";
             }
             if (empty($error) == true) {
+                    // move_uploaded_file($image_temp_name,'./upload/'.$image_name))
                 move_uploaded_file($file_tmp,"upload/".$file_name);
             } else {
                 print_r($error);
